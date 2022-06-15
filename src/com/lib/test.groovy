@@ -1,4 +1,3 @@
-#Scr
 def say_hello() {
     node {
         stage("Stage1"){
