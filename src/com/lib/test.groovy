@@ -1,7 +1,7 @@
 def say_hello() {
     node {
         stage("Stage1"){
-            sh echo "Hello World!"
+            sh "echo Hello World!"
         }
     }
 }
