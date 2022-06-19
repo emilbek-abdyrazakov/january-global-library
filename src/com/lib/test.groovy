@@ -3,5 +3,8 @@ def say_hello() {
         stage("Stage1"){
             sh "echo Hello World!"
         }
+        stage("Stage1"){
+            sh "echo Hello World!"
+        }
     }
 }
